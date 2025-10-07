@@ -1,9 +1,9 @@
 "use client";
 import { ThemeProvider } from "react-bootstrap";
-import App from "@legacy/App.jsx";
 import { TranscriptionProvider } from "@legacy/contexts/TranscriptionContext";
+import App from "@legacy/App.jsx";
 
-export default function Home() {
+export default function PatientPage() {
   return (
     <ThemeProvider>
       <TranscriptionProvider>
@@ -12,3 +12,5 @@ export default function Home() {
     </ThemeProvider>
   );
 }
+
+

@@ -3,7 +3,7 @@ import { ThemeProvider } from "react-bootstrap";
 import App from "@legacy/App.jsx";
 import { TranscriptionProvider } from "@legacy/contexts/TranscriptionContext";
 
-export default function Home() {
+export default function DoctorPage() {
   return (
     <ThemeProvider>
       <TranscriptionProvider>
@@ -12,3 +12,5 @@ export default function Home() {
     </ThemeProvider>
   );
 }
+
+
